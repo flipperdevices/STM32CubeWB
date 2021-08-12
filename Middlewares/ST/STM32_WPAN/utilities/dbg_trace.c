@@ -255,6 +255,7 @@ size_t DbgTraceWrite(int handle, const unsigned char * buf, size_t bufSize)
 {
   size_t chars_written = 0;
   uint8_t* buffer;
+  (void)buffer;
 
   BACKUP_PRIMASK();
 
